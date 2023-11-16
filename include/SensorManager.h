@@ -5,29 +5,27 @@
 #include <Arduino.h> 
 #include "GpsModule.h"
 #include "AccelerometerModule.h"
+#include "EventManager.h"  // Inclua o cabeçalho completo do EventManager
 
 class SensorManager {
 public:
-    SensorManager(GpsModule *gpsModule);  // Construtor
+    SensorManager(GpsModule *gpsModule, EventManager* eventManager);  // Construtor
     ~SensorManager(); // Destrutor
 
-    // Adicione aqui as declarações dos métodos públicos da classe
-
-    void checkQueueGPS();
-    // deve consultar a fila do GPS para verificar se há algo la dentro
-    // deve fazer isso a cada 60 segundos
-    // deve chamar a função checkQueueGPS e o retorno dela deve adicionar em uma outra fila esta fila sera interna do SensorManager
-
+    void checkQueueSensor();
     void checkQueueAccelerometer();
-
-    void printInternalQueue();  // Imprime as informações da fila interna
-
+    void printInternalQueue();
+    void PeriodicGPS();
+    void emptyEventManagerQueue();
 
 private:
-
     GpsModule* gpsModule;
     AccelerometerModule*  accelerometerModule;
-    LinkedList<Event> internalQueue;  // Fila interna do SensorManager
+    LinkedList<Event> internalQueue;
+    EventManager* eventManager;  // Adicione um ponteiro para EventManager
+    unsigned long lastGPSTime; 
+    unsigned long lastEmptyEventTime;  
+
 
 
 };

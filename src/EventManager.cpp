@@ -1,4 +1,6 @@
 #include "EventManager.h"
+#include <TimeLib.h>
+
 
 EventManager::EventManager() {
   // Construtor da classe, se necessário
@@ -27,4 +29,25 @@ void EventManager::removeEvent() {
 
 bool EventManager::isEmpty() {
   return eventQueue.size() == 0;
+}
+
+
+void EventManager::printAllEvents() {
+    Serial.println("Elementos na fila do EventManager:");
+    for (int i = 0; i < eventQueue.size(); ++i) {
+        Event event = eventQueue.get(i);
+        Serial.print("ID do Controlador: ");
+        Serial.print(event.getControllerID());
+        Serial.print(", Data/Hora: ");
+        Serial.print(hour(event.getTimestamp()));
+        Serial.print(":");
+        Serial.print(minute(event.getTimestamp()));
+        Serial.print(":");
+        Serial.println(second(event.getTimestamp()));
+    }
+    Serial.println("Fim da fila do EventManager");
+}
+
+LinkedList<Event>& EventManager::getEventQueue() {
+    return eventQueue;
 }

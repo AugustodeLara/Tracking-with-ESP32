@@ -9,9 +9,11 @@ class EventManager {
 public:
   EventManager();
   void addEvent(const Event& event);
-  Event getEvent();  // Modificado para retornar Event
+  Event getEvent();  
   void removeEvent();
   bool isEmpty();
+  void printAllEvents();
+  LinkedList<Event>& getEventQueue(); 
 
 private:
   LinkedList<Event> eventQueue;
