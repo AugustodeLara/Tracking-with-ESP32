@@ -4,16 +4,25 @@ EventManager::EventManager() {
   // Construtor da classe, se necessário
 }
 
-void EventManager::addEvent(Event event) {
-  eventQueue.add(event);
+void EventManager::addEvent(const Event& event) {
+  eventQueue.add(event);  // Adiciona o evento à fila
 }
 
 Event EventManager::getEvent() {
-  return eventQueue.get(0);
+    if (eventQueue.size() > 0) {
+        Event event = eventQueue.get(0);
+        eventQueue.pop();
+        return event;
+    } else {
+        // Retornar um Event padrão ou lançar uma exceção, dependendo do seu design
+        return Event();
+    }
 }
 
 void EventManager::removeEvent() {
-  eventQueue.pop();
+  if (eventQueue.size() > 0) {
+    eventQueue.pop();
+  }
 }
 
 bool EventManager::isEmpty() {

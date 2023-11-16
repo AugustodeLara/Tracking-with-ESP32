@@ -1,6 +1,9 @@
 #include <Arduino.h>
 #include <TimeLib.h>
 #include "EventManager.h"
+#include "SensorManager.h"
+#include "GpsModule.h"
+#include "Event.h"
 #include <TinyGPSPlus.h>
 #include "SparkFunLSM6DS3.h"
 #include "Wire.h"
@@ -14,7 +17,6 @@ LSM6DS3 myIMU; //Default constructor is I2C, addr 0x6B
 static const int RXPin = 16, TXPin = 17;
 
 
-
 #define RXD2 16
 #define TXD2 17
 
@@ -25,25 +27,35 @@ time_t getExternalTimeProvider() {
   return externalTime;
 }
 
-EventManager eventManager; // Crie um objeto da classe EventManager
+EventManager * eventManager = new EventManager();
+ // Crie um objeto da classe EventManager
 
+GpsModule* gpsModule = new GpsModule();
+SensorManager* sensorManager = new SensorManager(gpsModule);
+
+/*
 
 void sendEventsToHost() {
-  while (!eventManager.isEmpty()) {
-    Event event = eventManager.getEvent();
-    eventManager.removeEvent();
-    Serial.print("APAGANDO");
-    Serial.print("ID do Controlador: ");
-    Serial.print(event.controllerID);
-    Serial.print(", Data/Hora: ");
-    Serial.print(hour(event.timestamp));
-    Serial.print(":");
-    Serial.print(minute(event.timestamp));
-    Serial.print(":");
-    Serial.println(second(event.timestamp));
-  }
+    while (!eventManager->isEmpty()) {
+        Event* event = eventManager->getEvent();
+        if (event) {
+            Serial.print("APAGANDO");
+            Serial.print("ID do Controlador: ");
+            Serial.print(event->getControllerID());
+            Serial.print(", Data/Hora: ");
+            Serial.print(hour(event->getTimestamp()));
+            Serial.print(":");
+            Serial.print(minute(event->getTimestamp()));
+            Serial.print(":");
+            Serial.println(second(event->getTimestamp()));
+
+            // Libera a memória do Event
+            delete event;
+        }
+    }
 }
 
+*/
 
 
 void displayInfo() {
@@ -68,26 +80,35 @@ void updateSerial(){
     Serial2.write(Serial.read());//Forward what Serial received to Software Serial Port
   }
 
-  while (Serial2.available()) {
-    Serial.write(Serial2.read());//Forward what Software Serial received to Serial Port
-  }
+ // while (Serial2.available()) {
+ //   Serial.write(Serial2.read());//Forward what Software Serial received to Serial Port
+ // }
 
 }
 
 
 void setup() {
   Serial.begin(115200);
-  Serial2.begin(9600, SERIAL_8N1, RXD2, TXD2);
+ // Serial2.begin(9600, SERIAL_8N1, RXD2, TXD2);
 
-  delay(3000);
-  setSyncProvider(getExternalTimeProvider);
-  setSyncInterval(60);
-  myIMU.begin();
+  delay(500);
+ // setSyncProvider(getExternalTimeProvider);
+ // setSyncInterval(60);
+ // myIMU.begin();
+
 
 }
 
 void loop() {
 
+
+sensorManager->printInternalQueue();
+  delay(1000);
+sensorManager->checkQueueGPS();
+   delay(1000);
+gpsModule->sendInformationGPS();
+  delay(1000);
+gpsModule->checkQueueGPSinternal();
 
   /*
   Codigo para validar GPS
@@ -100,31 +121,36 @@ void loop() {
    */
 
   
+  /*
   int controllerID = 1;
   time_t currentTime = now();
 
   Event newEvent;
-  newEvent.controllerID = controllerID;
-  newEvent.timestamp = currentTime;
+  newEvent.setControllerID(controllerID);
+  newEvent.setTimestamp(currentTime);
+  newEvent.setPayload("AUGUSTO");
   eventManager.addEvent(newEvent);
 
-    Serial.print("ID do Controlador: ");
-    Serial.print(newEvent.controllerID);
-    Serial.print(", Data/Hora: ");
-    Serial.print(hour(newEvent.timestamp));
-    Serial.print(":");
-    Serial.print(minute(newEvent.timestamp));
-    Serial.print(":");
-    Serial.println(second(newEvent.timestamp));
+  Serial.print("ID do Controlador: ");
+  Serial.print(newEvent.getControllerID());
+  Serial.print(", Data/Hora: ");
+  Serial.print(hour(newEvent.getTimestamp()));
+  Serial.print(":");
+  Serial.print(minute(newEvent.getTimestamp()));
+  Serial.print(":");
+  Serial.println(second(newEvent.getTimestamp()));
+  */
 
+  /*
   if (Serial.available() > 0) {
     String command = Serial.readStringUntil('\n');
     if (command == "receber") {
       sendEventsToHost();
     }
   }
+  */
 
-  delay(2000);
+ // delay(500);
   
 }
 
