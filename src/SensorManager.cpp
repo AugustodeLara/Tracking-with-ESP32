@@ -4,7 +4,6 @@ SensorManager::SensorManager(GpsModule* gpsModule, EventManager* eventManager) :
     // Implemente o código do construtor, se necessário
 
     //checkQueueGPS();
-
     accelerometerModule = new AccelerometerModule();
     lastEmptyEventTime = now();
     lastGPSTime = now();

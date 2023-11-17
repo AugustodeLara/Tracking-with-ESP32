@@ -21,12 +21,48 @@ void setup() {
 }
 
 void loop() {
+ /* 
+ Serial.println("loop");
+  if (Serial.available() > 0) {
+        char incomingChar = Serial.read();
+         Serial.println("Serial.available():");
 
-//sensorManager->checkQueueSensor();
-//  delay(1000);
-sensorManager->capturePeriodicGPS();  
+        if (incomingChar == 'A') {
+                   Serial.println("incomingChar A");
+
+            // Aguarda o próximo caractere
+            while (Serial.available() == 0);
+
+            incomingChar = Serial.read();
+
+            if (incomingChar == 'D') {
+                   Serial.println("incomingChar D");
+
+                // Aguarda o próximo caractere
+                while (Serial.available() == 0);
+
+                incomingChar = Serial.read();
+
+                if (incomingChar == 'M') {
+                                     Serial.println("incomingChar M");
+
+                    // Recebeu a mensagem completa 'ADM', então envie a fila de eventos
+                    //sendEventQueue();
+                }
+            }
+        }
+    }
+
+    delay(2000);
+}
+*/
+
 delay(1000);
-//gpsModule->captureInformationGPS();
+sensorManager->checkQueueSensor();
+delay(1000);
+sensorManager->PeriodicGPS();  
+delay(1000);
+gpsModule->captureInformationGPS();
 delay(1000);
 gpsModule->checkQueueGPSinternal();
 delay(1000);
