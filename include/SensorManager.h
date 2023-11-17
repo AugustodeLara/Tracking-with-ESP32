@@ -5,7 +5,8 @@
 #include <Arduino.h> 
 #include "GpsModule.h"
 #include "AccelerometerModule.h"
-#include "EventManager.h" 
+#include "EventManager.h"
+#include "ClockCalendar.h"  // Inclua o cabeçalho para ClockCalendar
 
 class SensorManager {
 public:
@@ -22,6 +23,7 @@ private:
     std::shared_ptr<GpsModule> gpsModule;
     std::shared_ptr<AccelerometerModule> accelerometerModule;
     std::shared_ptr<EventManager> eventManager;
+    ClockCalendar clockCalendar;
     unsigned long lastGPSTime;
     unsigned long lastEmptyEventTime;
 };
