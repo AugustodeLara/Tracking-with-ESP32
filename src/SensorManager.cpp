@@ -1,32 +1,25 @@
 #include "SensorManager.h"
 
-SensorManager::SensorManager(GpsModule* gpsModule, EventManager* eventManager) : gpsModule(gpsModule)  , eventManager(eventManager){
-    // Implemente o código do construtor, se necessário
-
-    //checkQueueGPS();
-    accelerometerModule = new AccelerometerModule();
+SensorManager::SensorManager(std::shared_ptr<GpsModule> gpsModule, std::shared_ptr<EventManager> eventManager)
+    : gpsModule(gpsModule), eventManager(eventManager) {
+    accelerometerModule = std::make_shared<AccelerometerModule>();
     lastEmptyEventTime = now();
     lastGPSTime = now();
-
 }
 
 SensorManager::~SensorManager() {
-    // Implemente o código do destrutor, se necessário
-    delete gpsModule;
-    delete accelerometerModule;
+    // O destrutor do std::shared_ptr faz o trabalho de liberar a memória automaticamente.
 }
 
 void SensorManager::checkQueueSensor() {
-        Serial.println("checkQueueSensor:");
-       // eventManager->removeEvent();
-        eventManager->printAllEvents();
+    Serial.println("checkQueueSensor:");
+    eventManager->printAllEvents();
 }
 
 void SensorManager::checkQueueAccelerometer() {
     // Implemente a lógica para consultar a fila do AccelerometerModule, se necessário
     // Adicione eventos à fila interna do SensorManager conforme necessário
 }
-
 
 void SensorManager::PeriodicGPS() {
     unsigned long currentTime = millis();
@@ -41,7 +34,6 @@ void SensorManager::PeriodicGPS() {
     } else {
         Serial.println("Tempo ainda não atingiu 10 segundos.");
     }
-
 }
 
 void SensorManager::emptyEventManagerQueue() {
@@ -52,14 +44,10 @@ void SensorManager::emptyEventManagerQueue() {
     if (currentTime - lastEmptyEventTime >= 90000) {
         lastEmptyEventTime = currentTime;
         Serial.println("Esvaziando a fila do EventManager.");
-    while (!eventManager->isEmpty()) {
+        while (!eventManager->isEmpty()) {
             eventManager->removeEvent();
-    }
+        }
     } else {
         Serial.println("Empty Tempo ainda não atingiu 90 segundos.");
     }
-
-
-    
 }
-

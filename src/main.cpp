@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include <TimeLib.h>
+#include <memory>
 #include "EventManager.h"
 #include "SensorManager.h"
 #include "GpsModule.h"
@@ -9,11 +10,10 @@
 #include "Wire.h"
 #include "SPI.h"
 
-
-EventManager * eventManager = new EventManager();
-GpsModule* gpsModule = new GpsModule(eventManager);
-SensorManager* sensorManager = new SensorManager(gpsModule,eventManager);
-
+// Utilize std::shared_ptr para gerenciamento automático da memória
+std::shared_ptr<EventManager> eventManager = std::make_shared<EventManager>();
+std::shared_ptr<GpsModule> gpsModule = std::make_shared<GpsModule>(eventManager);
+std::shared_ptr<SensorManager> sensorManager = std::make_shared<SensorManager>(gpsModule, eventManager);
 
 void setup() {
   Serial.begin(115200);
@@ -21,55 +21,16 @@ void setup() {
 }
 
 void loop() {
- /* 
- Serial.println("loop");
-  if (Serial.available() > 0) {
-        char incomingChar = Serial.read();
-         Serial.println("Serial.available():");
-
-        if (incomingChar == 'A') {
-                   Serial.println("incomingChar A");
-
-            // Aguarda o próximo caractere
-            while (Serial.available() == 0);
-
-            incomingChar = Serial.read();
-
-            if (incomingChar == 'D') {
-                   Serial.println("incomingChar D");
-
-                // Aguarda o próximo caractere
-                while (Serial.available() == 0);
-
-                incomingChar = Serial.read();
-
-                if (incomingChar == 'M') {
-                                     Serial.println("incomingChar M");
-
-                    // Recebeu a mensagem completa 'ADM', então envie a fila de eventos
-                    //sendEventQueue();
-                }
-            }
-        }
-    }
-
-    delay(2000);
+  sensorManager->checkQueueSensor();
+  delay(1000);
+  sensorManager->PeriodicGPS();
+  delay(1000);
+  // gpsModule->captureInformationGPS();
+  // delay(1000);
+  gpsModule->getQueueGPSinternal();
+  delay(1000);
+  sensorManager->emptyEventManagerQueue();
 }
-*/
-
-delay(1000);
-sensorManager->checkQueueSensor();
-delay(1000);
-sensorManager->PeriodicGPS();  
-delay(1000);
-gpsModule->captureInformationGPS();
-delay(1000);
-gpsModule->checkQueueGPSinternal();
-delay(1000);
-sensorManager->emptyEventManagerQueue();
-
-}
-
 
 int main() {
   setup();

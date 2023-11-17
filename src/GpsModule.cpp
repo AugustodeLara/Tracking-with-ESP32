@@ -1,7 +1,7 @@
 #include "GpsModule.h"
 #include "EventManager.h"
 
-GpsModule::GpsModule(EventManager* eventManager) : eventManager(eventManager) {
+GpsModule::GpsModule(std::shared_ptr<EventManager> eventManager) : eventManager(eventManager) {
     lastUpdateTime = now();
 }
 
@@ -17,10 +17,12 @@ void GpsModule::captureInformationGPS() {
     eventManager->addEvent(gpsEvent);  // Adiciona o evento ao EventManager
 }
 
-
-LinkedList<Event> GpsModule::checkQueueGPSinternal() {
-    LinkedList<Event> tempQueue;
+void GpsModule::getQueueGPSinternal() {
     Serial.println("checkQueueGPSinternal:");
     eventManager->printAllEvents();
-    return tempQueue;
+}
+
+// Certifique-se de que o destrutor esteja implementado
+GpsModule::~GpsModule() {
+    // Implementação do destrutor, se necessário
 }

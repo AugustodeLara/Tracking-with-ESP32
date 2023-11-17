@@ -1,9 +1,9 @@
+// EventManager.h
 #ifndef EVENT_MANAGER_H
 #define EVENT_MANAGER_H
 
-#include <LinkedList.h>
-#include <Arduino.h>
-#include "Event.h" // Inclua a nova classe Event
+#include "QueueEvents.h"
+#include "Event.h"
 
 class EventManager {
 public:
@@ -13,10 +13,10 @@ public:
   void removeEvent();
   bool isEmpty();
   void printAllEvents();
-  LinkedList<Event>& getEventQueue(); 
+  QueueEvents getEventQueue();  // Modificado para retornar uma cópia
 
 private:
-  LinkedList<Event> eventQueue;
+  QueueEvents eventQueue;
 };
 
 #endif

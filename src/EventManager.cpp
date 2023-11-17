@@ -1,41 +1,35 @@
+// EventManager.cpp
 #include "EventManager.h"
 #include <TimeLib.h>
-
 
 EventManager::EventManager() {
   // Construtor da classe, se necessário
 }
 
 void EventManager::addEvent(const Event& event) {
-  eventQueue.add(event);  // Adiciona o evento à fila
+    eventQueue.enqueue(event);
 }
 
 Event EventManager::getEvent() {
-    if (eventQueue.size() > 0) {
-        Event event = eventQueue.get(0);
-        eventQueue.pop();
-        return event;
-    } else {
-        // Retornar um Event padrão ou lançar uma exceção, dependendo do seu design
-        return Event();
-    }
+    return eventQueue.dequeue();
 }
 
 void EventManager::removeEvent() {
-  if (eventQueue.size() > 0) {
-    eventQueue.pop();
-  }
+    eventQueue.dequeue();
 }
 
 bool EventManager::isEmpty() {
-  return eventQueue.size() == 0;
+  return eventQueue.isEmpty();
 }
-
 
 void EventManager::printAllEvents() {
     Serial.println("Elementos na fila do EventManager:");
-    for (int i = 0; i < eventQueue.size(); ++i) {
-        Event event = eventQueue.get(i);
+
+    // Crie uma cópia temporária da fila para evitar removê-la
+    QueueEvents tempQueue = eventQueue;
+
+    while (!tempQueue.isEmpty()) {
+        Event event = tempQueue.dequeue();
         Serial.print("ID do Controlador: ");
         Serial.print(event.getControllerID());
         Serial.print(", Data/Hora: ");
@@ -45,9 +39,10 @@ void EventManager::printAllEvents() {
         Serial.print(":");
         Serial.println(second(event.getTimestamp()));
     }
+
     Serial.println("Fim da fila do EventManager");
 }
 
-LinkedList<Event>& EventManager::getEventQueue() {
-    return eventQueue;
+QueueEvents EventManager::getEventQueue() {
+    return eventQueue;  // Agora retorna uma cópia da fila
 }
