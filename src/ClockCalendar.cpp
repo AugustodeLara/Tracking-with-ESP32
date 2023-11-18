@@ -38,5 +38,8 @@ String ClockCalendar::currentTime() const {
     String period = (is_pm) ? "PM" : "AM";
 
     String currentTimeStr = String(hours) + ":" + String(minutes) + ":" + String(seconds) + " " + period;
+
+    Serial.print("XXXXXXXXXXXXXXXXX - Tempo atual: ");
+    Serial.println(currentTimeStr);
     return currentTimeStr;
 }

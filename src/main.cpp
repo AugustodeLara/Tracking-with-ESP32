@@ -28,9 +28,7 @@ void setup() {
 
 void loop() {
   
-  String current_time = clockCalendar->currentTime();
-  Serial.print("XXXXXXXXXXXXXXXXX - Tempo atual: ");
-  Serial.println(current_time);
+  clockCalendar->currentTime();
   clockCalendar->advance();
 
   sensorManager->checkQueueSensor();

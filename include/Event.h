@@ -31,6 +31,7 @@ public:
 private:
     ControllerID controllerID;
     String timestamp;
+    String date;
     const char* payload;
 };
 

@@ -23,10 +23,6 @@ void SensorManager::checkQueueAccelerometer() {
 
 void SensorManager::PeriodicGPS() {
 
-    String current_time = clockCalendar->currentTime();
-    Serial.print("XXXXXXXXXXXXXXXXX - Tempo atual PERI: ");
-    Serial.println(current_time);
-
     // Verifica se passaram pelo menos 10 segundos desde a última captura de GPS
     unsigned long currentTime = clockCalendar->getMillis();
     unsigned long timeDifference = currentTime - lastGPSTime;
@@ -54,10 +50,6 @@ void SensorManager::emptyEventManagerQueue() {
     // Verifica se passaram 90 segundos desde o último esvaziamento da fila do EventManager
     unsigned long currentTime = clockCalendar->getMillis();
     unsigned long timeDifference = currentTime - lastEmptyEventTime;
-
-    String current_time = clockCalendar->currentTime();
-    Serial.print("XXXXXXXXXXXXXXXXX - Tempo atual empty: ");
-    Serial.println(current_time);
 
     Serial.print("XXX - lastEmptyEventTime: ");
     Serial.println(lastEmptyEventTime);

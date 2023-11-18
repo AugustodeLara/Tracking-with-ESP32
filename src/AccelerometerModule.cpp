@@ -8,4 +8,4 @@ AccelerometerModule::~AccelerometerModule() {
     // Implemente o código do destrutor, se necessário
 }
 
-// Implemente aqui os métodos públicos da classe
+// TODO: Implementation TinyMl to anomaly
