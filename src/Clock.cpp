@@ -16,6 +16,10 @@ int Clock::getSecond() const {
     return sec;
 }
 
+unsigned long Clock::getMillis() const {
+    // Converte horas, minutos e segundos para milissegundos
+    return ((hr * 60UL * 60UL) + (min * 60UL) + sec) * 1000UL;
+}
 
 void Clock::setClock(int h, int s, int m, int pm) {
     hr = h;
@@ -46,5 +50,4 @@ void Clock::advance() {
         }
     }
     Serial.println("Clock avançado");
-
 }

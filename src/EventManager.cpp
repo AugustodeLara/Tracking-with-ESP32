@@ -1,9 +1,16 @@
 // EventManager.cpp
 #include "EventManager.h"
-#include <TimeLib.h>
+#include "ClockCalendar.h" // Inclua ClockCalendar aqui
+
+
+EventManager::EventManager(std::shared_ptr<ClockCalendar> clockCalendar) : clockCalendar(clockCalendar) {
+    clockCalendar = clockCalendar;
+    // Construtor da classe, se necessário
+}
+
 
 EventManager::EventManager() {
-  // Construtor da classe, se necessário
+    // Construtor da classe, se necessário
 }
 
 void EventManager::addEvent(const Event& event) {
@@ -19,7 +26,11 @@ void EventManager::removeEvent() {
 }
 
 bool EventManager::isEmpty() {
-  return eventQueue.isEmpty();
+    return eventQueue.isEmpty();
+}
+
+size_t EventManager::getSizeQueue() {
+    return eventQueue.size();
 }
 
 void EventManager::printAllEvents() {
@@ -28,16 +39,14 @@ void EventManager::printAllEvents() {
     // Crie uma cópia temporária da fila para evitar removê-la
     QueueEvents tempQueue = eventQueue;
 
-    while (!tempQueue.isEmpty()) {
+     while (!tempQueue.isEmpty()) {
         Event event = tempQueue.dequeue();
+        String timestampString = event.getTimestamp();
+
         Serial.print("ID do Controlador: ");
         Serial.print(event.getControllerID());
         Serial.print(", Data/Hora: ");
-        Serial.print(hour(event.getTimestamp()));
-        Serial.print(":");
-        Serial.print(minute(event.getTimestamp()));
-        Serial.print(":");
-        Serial.println(second(event.getTimestamp()));
+        Serial.println(timestampString);
     }
 
     Serial.println("Fim da fila do EventManager");

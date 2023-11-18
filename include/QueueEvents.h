@@ -2,8 +2,6 @@
 #ifndef QUEUE_EVENTS_H
 #define QUEUE_EVENTS_H
 
-#include <Arduino.h>
-#include <TimeLib.h>
 #include "Event.h"
 
 class QueueEvents {

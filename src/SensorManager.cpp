@@ -1,10 +1,10 @@
 #include "SensorManager.h"
 
-SensorManager::SensorManager(std::shared_ptr<GpsModule> gpsModule, std::shared_ptr<EventManager> eventManager)
-    : gpsModule(gpsModule), eventManager(eventManager), clockCalendar(1, 1, 2023, 12, 0, 0, 0) {
+SensorManager::SensorManager(std::shared_ptr<GpsModule> gpsModule, std::shared_ptr<EventManager> eventManager, std::shared_ptr<ClockCalendar> clockCalendar)
+    : gpsModule(gpsModule), eventManager(eventManager), clockCalendar(clockCalendar) {
     accelerometerModule = std::make_shared<AccelerometerModule>();
-    lastEmptyEventTime = now();
-    lastGPSTime = now();
+    lastEmptyEventTime = clockCalendar->getMillis();  
+    lastGPSTime = clockCalendar->getMillis();         // Use millis() instead of now()
 }
 
 SensorManager::~SensorManager() {
@@ -22,61 +22,56 @@ void SensorManager::checkQueueAccelerometer() {
 }
 
 void SensorManager::PeriodicGPS() {
-    clockCalendar.advance();  // Avance o relógio/calendário
 
-    int currentHour, currentMinute, currentSecond, isPM;
-    clockCalendar.readClock(currentHour, currentMinute, currentSecond, isPM);
-
-    Serial.print("Tempo atual capture: ");
-    Serial.print(currentHour);
-    Serial.print(":");
-    Serial.print(currentMinute);
-    Serial.print(":");
-    Serial.print(currentSecond);
-    Serial.print(" ");
-    Serial.println(isPM ? "PM" : "AM");
-
-    // Calcula a diferença de tempo em segundos desde a última captura de GPS
-int timeDifference = clockCalendar.calculateTimeDifference(ClockCalendar(1, 1, 2023, 12, 0, 0, 0));
-    lastGPSTime = clockCalendar.getMillis();
+    String current_time = clockCalendar->currentTime();
+    Serial.print("XXXXXXXXXXXXXXXXX - Tempo atual PERI: ");
+    Serial.println(current_time);
 
     // Verifica se passaram pelo menos 10 segundos desde a última captura de GPS
-    if (timeDifference >= 10) {
+    unsigned long currentTime = clockCalendar->getMillis();
+    unsigned long timeDifference = currentTime - lastGPSTime;
+
+    Serial.print("XXX - lastGPSTime: ");
+    Serial.println(lastGPSTime);
+
+    Serial.print("XXX - timeDifference: ");
+    Serial.println(timeDifference);
+
+    // Verifica se passaram pelo menos 10 segundos desde a última captura de GPS
+    if (timeDifference >= 31500 || lastGPSTime == 0) {
         Serial.println("Atingiu pelo menos 10 segundos:");
 
         // Captura informações GPS e adiciona à fila
         gpsModule->captureInformationGPS();
-        lastGPSTime = clockCalendar.getMillis();;  // Atualiza o último tempo de captura
+        lastGPSTime = currentTime;  // Atualiza o último tempo de captura
     } else {
         Serial.println("Tempo ainda não atingiu 10 segundos.");
     }
-
 }
 
+
 void SensorManager::emptyEventManagerQueue() {
-    clockCalendar.advance();  // Avance o relógio/calendário
-
-    int currentHour, currentMinute, currentSecond, isPM;
-    clockCalendar.readClock(currentHour, currentMinute, currentSecond, isPM);
-
-    unsigned long currentTime = millis();
-    Serial.print("Tempo atual empty: ");
-    Serial.print(currentHour);
-    Serial.print(":");
-    Serial.print(currentMinute);
-    Serial.print(":");
-    Serial.print(currentSecond);
-    Serial.print(" ");
-    Serial.println(isPM ? "PM" : "AM");
-
     // Verifica se passaram 90 segundos desde o último esvaziamento da fila do EventManager
-    if (currentHour == 0 && currentMinute == 0 && (currentTime - lastEmptyEventTime) >= 90000) {
+    unsigned long currentTime = clockCalendar->getMillis();
+    unsigned long timeDifference = currentTime - lastEmptyEventTime;
+
+    String current_time = clockCalendar->currentTime();
+    Serial.print("XXXXXXXXXXXXXXXXX - Tempo atual empty: ");
+    Serial.println(current_time);
+
+    Serial.print("XXX - lastEmptyEventTime: ");
+    Serial.println(lastEmptyEventTime);
+
+    Serial.print("XXX - timeDifference empty: ");
+    Serial.println(timeDifference);
+
+    if (timeDifference >= (31500*6) && eventManager->getSizeQueue() >=6) { 
         lastEmptyEventTime = currentTime;
         Serial.println("Esvaziando a fila do EventManager.");
         while (!eventManager->isEmpty()) {
             eventManager->removeEvent();
         }
     } else {
-        Serial.println("Empty Tempo ainda não atingiu 90 segundos.");
+        Serial.println("Empty Tempo ainda não atingiu regra de limpeza");
     }
 }

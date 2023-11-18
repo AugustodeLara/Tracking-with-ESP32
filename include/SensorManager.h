@@ -6,11 +6,11 @@
 #include "GpsModule.h"
 #include "AccelerometerModule.h"
 #include "EventManager.h"
-#include "ClockCalendar.h"  // Inclua o cabeçalho para ClockCalendar
+#include "ClockCalendar.h"  
 
 class SensorManager {
 public:
-    SensorManager(std::shared_ptr<GpsModule> gpsModule, std::shared_ptr<EventManager> eventManager);
+    SensorManager(std::shared_ptr<GpsModule> gpsModule, std::shared_ptr<EventManager> eventManager, std::shared_ptr<ClockCalendar> clockCalendar);
     ~SensorManager();
 
     void checkQueueSensor();
@@ -23,7 +23,7 @@ private:
     std::shared_ptr<GpsModule> gpsModule;
     std::shared_ptr<AccelerometerModule> accelerometerModule;
     std::shared_ptr<EventManager> eventManager;
-    ClockCalendar clockCalendar;
+    std::shared_ptr<ClockCalendar> clockCalendar;
     unsigned long lastGPSTime;
     unsigned long lastEmptyEventTime;
 };

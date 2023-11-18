@@ -14,6 +14,7 @@ public:
     int getHour() const;
     int getMinute() const;
     int getSecond() const;
+    unsigned long getMillis() const;
 };
 
 #endif // CLOCK_H

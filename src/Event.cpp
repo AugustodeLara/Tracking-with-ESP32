@@ -1,27 +1,25 @@
+// Event.cpp
 #include "Event.h"
+#include "ClockCalendar.h"
 
-Event::Event() : controllerID(0), timestamp(0), payload(nullptr) {
-    // Construtor padrão
-}
+Event::Event() : controllerID(ID_DEFAULT), payload(nullptr) {}
 
-Event::Event(int controllerID, time_t timestamp, const char* payload)
-    : controllerID(controllerID), timestamp(timestamp), payload(payload) {
-    // Construtor com argumentos
-}
+Event::Event(ControllerID controllerID, const String& timestamp, const char* payload)
+    : controllerID(controllerID), timestamp(timestamp), payload(payload) {}
 
-int Event::getControllerID() const {
+ControllerID Event::getControllerID() const {
     return controllerID;
 }
 
-void Event::setControllerID(int newControllerID) {
+void Event::setControllerID(ControllerID newControllerID) {
     controllerID = newControllerID;
 }
 
-time_t Event::getTimestamp() const {
+String Event::getTimestamp() const {
     return timestamp;
 }
 
-void Event::setTimestamp(time_t newTimestamp) {
+void Event::setTimestamp(const String& newTimestamp) {
     timestamp = newTimestamp;
 }
 

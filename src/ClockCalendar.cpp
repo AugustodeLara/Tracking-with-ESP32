@@ -1,6 +1,7 @@
 // ClockCalendar.cpp
 #include "ClockCalendar.h"
-#include <Arduino.h>  // Adicione esta linha
+
+ClockCalendar::ClockCalendar() : Clock(0, 0, 0, 0), Calendar(1, 1, 2023) {}
 
 ClockCalendar::ClockCalendar(int mt, int d, int y, int h, int m, int s, int pm)
     : Clock(h, m, s, pm), Calendar(mt, d, y) {}
@@ -11,14 +12,12 @@ void ClockCalendar::advance() {
 }
 
 int ClockCalendar::calculateTimeDifference(const ClockCalendar& other) const {
-    // Calcula a diferença de tempo em segundos entre dois ClockCalendar
     int seconds1 = getSecondsSinceMidnight();
     int seconds2 = other.getSecondsSinceMidnight();
     return seconds1 - seconds2;
 }
 
 int ClockCalendar::getSecondsSinceMidnight() const {
-    // Obtém o número total de segundos desde a meia-noite
     int hours = getHour();
     int minutes = getMinute();
     int seconds = getSecond();
@@ -27,6 +26,17 @@ int ClockCalendar::getSecondsSinceMidnight() const {
 }
 
 unsigned long ClockCalendar::getMillis() const {
-    // Obtém o tempo atual em milissegundos desde a inicialização ou reinício
-    return millis();
+    // Retorna millis() + segundos desde a meia-noite
+    return millis() + getSecondsSinceMidnight() * 1000UL;
+}
+
+
+String ClockCalendar::currentTime() const {
+    int hours = getHour();
+    int minutes = getMinute();
+    int seconds = getSecond();
+    String period = (is_pm) ? "PM" : "AM";
+
+    String currentTimeStr = String(hours) + ":" + String(minutes) + ":" + String(seconds) + " " + period;
+    return currentTimeStr;
 }

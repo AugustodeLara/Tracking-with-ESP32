@@ -1,20 +1,18 @@
+// GpsModule.cpp
 #include "GpsModule.h"
 #include "EventManager.h"
+#include "ClockCalendar.h"
+#include <Arduino.h>
 
-GpsModule::GpsModule(std::shared_ptr<EventManager> eventManager) : eventManager(eventManager) {
-    lastUpdateTime = now();
-}
+GpsModule::GpsModule(std::shared_ptr<EventManager> eventManager, std::shared_ptr<ClockCalendar> clockCalendar)
+    : eventManager(eventManager), clockCalendar(clockCalendar) {}
 
 void GpsModule::captureInformationGPS() {
     Serial.println("capturePeriodicGPS:");
 
-    Event gpsEvent;
-    gpsEvent.setTimestamp(now());
-    gpsEvent.setControllerID(2);
-    gpsEvent.setPayload("GPS");
-
-    Serial.println("Add fila do GPS:");
-    eventManager->addEvent(gpsEvent);  // Adiciona o evento ao EventManager
+    Event gpsEvent(ID_GPS, clockCalendar->currentTime(), "GPS");
+    Serial.println("XXXXXXXXXX - Add fila do GPS:");
+    eventManager->addEvent(gpsEvent);
 }
 
 void GpsModule::getQueueGPSinternal() {
@@ -22,7 +20,6 @@ void GpsModule::getQueueGPSinternal() {
     eventManager->printAllEvents();
 }
 
-// Certifique-se de que o destrutor esteja implementado
 GpsModule::~GpsModule() {
     // Implementação do destrutor, se necessário
 }
