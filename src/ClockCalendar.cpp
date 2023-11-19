@@ -26,7 +26,6 @@ int ClockCalendar::getSecondsSinceMidnight() const {
 }
 
 unsigned long ClockCalendar::getMillis() const {
-    // Retorna millis() + segundos desde a meia-noite
     return millis() + getSecondsSinceMidnight() * 1000UL;
 }
 
@@ -41,5 +40,15 @@ String ClockCalendar::currentTime() const {
 
     Serial.print("XXXXXXXXXXXXXXXXX - Tempo atual: ");
     Serial.println(currentTimeStr);
+    return currentTimeStr;
+}
+
+
+String ClockCalendar::getTimeNow() const {
+    int hours = getHour();
+    int minutes = getMinute();
+    int seconds = getSecond();
+    String period = (is_pm) ? "PM" : "AM";
+    String currentTimeStr = String(hours) + ":" + String(minutes) + ":" + String(seconds) + " " + period;
     return currentTimeStr;
 }

@@ -1,44 +1,50 @@
-//#include <Arduino.h>
-#include <memory>
+// main.cpp
 #include "EventManager.h"
 #include "SensorManager.h"
 #include "GpsModule.h"
+#include "AccelerometerModule.h"
 #include "Event.h"
-#include <TinyGPSPlus.h>
+#include <TinyGPS++.h>
+#include <Arduino_LSM6DS3.h>
 #include "SparkFunLSM6DS3.h"
 #include "Wire.h"
 #include "SPI.h"
 
-// Utilize std::shared_ptr para gerenciamento automático da memória
+TinyGPSPlus gps;
 
-//devo ter aqui a criação do meu tempo, e ele deve ser passado para o EventManager e para os outros que precisarem de tempo.
-//std::shared_ptr<EventManager> eventManager = std::make_shared<EventManager>();
+#define RXD2 16
+#define TXD2 17
 
+
+// TODO: Move to CentralManager
 std::shared_ptr<ClockCalendar> clockCalendar = std::make_shared<ClockCalendar>();
 std::shared_ptr<EventManager> eventManager = std::make_shared<EventManager>(clockCalendar);
 std::shared_ptr<GpsModule> gpsModule = std::make_shared<GpsModule>(eventManager, clockCalendar);
-std::shared_ptr<SensorManager> sensorManager = std::make_shared<SensorManager>(gpsModule, eventManager, clockCalendar);
-
-
+std::shared_ptr<AccelerometerModule> accelerometerModule = std::make_shared<AccelerometerModule>(eventManager, clockCalendar);
+std::shared_ptr<SensorManager> sensorManager = std::make_shared<SensorManager>(gpsModule, accelerometerModule, eventManager, clockCalendar);
 
 void setup() {
+  Serial2.begin(9600, SERIAL_8N1, RXD2, TXD2);
   Serial.begin(115200);
   delay(500);
 }
 
 void loop() {
-  
   clockCalendar->currentTime();
   clockCalendar->advance();
 
   sensorManager->checkQueueSensor();
   delay(800);
-  sensorManager->PeriodicGPS();
+  
+  sensorManager->PeriodicGPS(gps);
   delay(800);
-  // gpsModule->captureInformationGPS();
-  // delay(1000);
+
+  sensorManager->PeriodicAccelerometer();
+  delay(800);
+
   gpsModule->getQueueGPSinternal();
   delay(800);
+
   sensorManager->emptyEventManagerQueue();
 }
 

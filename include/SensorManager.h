@@ -1,3 +1,4 @@
+// SensorManager.h
 #ifndef SENSORMANAGER_H
 #define SENSORMANAGER_H
 
@@ -10,13 +11,13 @@
 
 class SensorManager {
 public:
-    SensorManager(std::shared_ptr<GpsModule> gpsModule, std::shared_ptr<EventManager> eventManager, std::shared_ptr<ClockCalendar> clockCalendar);
+    SensorManager(std::shared_ptr<GpsModule> gpsModule, std::shared_ptr<AccelerometerModule> accelerometerModule, std::shared_ptr<EventManager> eventManager, std::shared_ptr<ClockCalendar> clockCalendar);
     ~SensorManager();
 
     void checkQueueSensor();
-    void checkQueueAccelerometer();
     void printInternalQueue();
-    void PeriodicGPS();
+    void PeriodicGPS(TinyGPSPlus& gps);
+    void PeriodicAccelerometer();
     void emptyEventManagerQueue();
 
 private:
@@ -26,6 +27,7 @@ private:
     std::shared_ptr<ClockCalendar> clockCalendar;
     unsigned long lastGPSTime;
     unsigned long lastEmptyEventTime;
+    unsigned long lastAccelerometerTime;
 };
 
 #endif // SENSORMANAGER_H

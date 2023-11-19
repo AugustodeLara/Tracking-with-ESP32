@@ -5,7 +5,8 @@
 #include <iostream>
 #include <memory>
 #include "Event.h"
-#include "ClockCalendar.h"  // Adicione esta linha
+#include "ClockCalendar.h"
+#include <TinyGPS++.h>  
 
 class EventManager; 
 
@@ -14,13 +15,15 @@ public:
     GpsModule(std::shared_ptr<EventManager> eventManager, std::shared_ptr<ClockCalendar> clockCalendar);
     ~GpsModule();
 
-    void captureInformationGPS();
+    void captureInformationGPS(TinyGPSPlus& gps);
     void getQueueGPSinternal();
+    void displayInfo();
+    bool eventAlreadyAdded(const String& location) const;
 
 private:
     time_t lastUpdateTime;
     std::shared_ptr<EventManager> eventManager;
-    std::shared_ptr<ClockCalendar> clockCalendar;  // Alteração aqui para usar std::shared_ptr
+    std::shared_ptr<ClockCalendar> clockCalendar;
 };
 
 #endif // GPSMODULE_H

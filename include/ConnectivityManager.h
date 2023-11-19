@@ -5,13 +5,11 @@
 
 class ConnectivityManager {
 public:
-    ConnectivityManager();  // Construtor
-    ~ConnectivityManager(); // Destrutor
-
-    // Adicione aqui as declarações dos métodos públicos da classe
+    ConnectivityManager(); 
+    ~ConnectivityManager();
+    //TODO: Create server local to receive request client smartphone
 
 private:
-    // Adicione aqui os membros privados da classe, se necessário
 };
 
 #endif // CONNECTIVITYMANAGER_H

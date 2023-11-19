@@ -17,7 +17,7 @@ enum ControllerID {
 class Event {
 public:
     Event();
-    Event(ControllerID controllerID, const String& timestamp, const char* payload);
+    Event(ControllerID controllerID, const String& timestamp,const String& payload);
 
     ControllerID getControllerID() const;
     void setControllerID(ControllerID newControllerID);
@@ -25,14 +25,14 @@ public:
     String getTimestamp() const;
     void setTimestamp(const String& newTimestamp);
 
-    const char* getPayload() const;
+    String getPayload() const;
     void setPayload(const char* newPayload);
 
 private:
     ControllerID controllerID;
     String timestamp;
     String date;
-    const char* payload;
+    String payload;
 };
 
 #endif  // EVENT_H

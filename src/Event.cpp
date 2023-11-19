@@ -2,9 +2,9 @@
 #include "Event.h"
 #include "ClockCalendar.h"
 
-Event::Event() : controllerID(ID_DEFAULT), payload(nullptr) {}
+Event::Event() : controllerID(ID_DEFAULT), payload("") {}
 
-Event::Event(ControllerID controllerID, const String& timestamp, const char* payload)
+Event::Event(ControllerID controllerID, const String& timestamp, const String& payload)
     : controllerID(controllerID), timestamp(timestamp), payload(payload) {}
 
 ControllerID Event::getControllerID() const {
@@ -23,7 +23,7 @@ void Event::setTimestamp(const String& newTimestamp) {
     timestamp = newTimestamp;
 }
 
-const char* Event::getPayload() const {
+String Event::getPayload() const {
     return payload;
 }
 

@@ -1,0 +1,2693 @@
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:0 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 4765
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:1 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 8997
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:2 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 13250
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:3 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 17524
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:4 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 21798
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:5 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 26093
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:6 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 30389
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:7 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+Fim da fila do EventManager
+Atingiu pelo menos 10 segundos:
+captureInformationGPS:
+XXXXXXXXXX - Add fila do GPS:
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 34712
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:8 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 39050
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:9 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 43408
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:10 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 47767
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:11 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 52147
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:12 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 56527
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:13 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 60928
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:14 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 65350
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:15 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+Fim da fila do EventManager
+Atingiu pelo menos 10 segundos:
+captureInformationGPS:
+INVALIDINVALIDXXXXXXXXXX - Add fila do GPS:
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 69791
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:16 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 74235
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:17 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 78699
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:18 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 83164
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:19 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 87650
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:20 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 92157
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:21 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 96665
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:22 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 101193
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:23 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+Fim da fila do EventManager
+Atingiu pelo menos 10 segundos:
+captureInformationGPS:
+INVALIDINVALIDINVALIDXXXXXXXXXX - Add fila do GPS:
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 105740
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:24 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 110310
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:25 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 114881
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:26 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 119473
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:27 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 124065
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:28 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 128678
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:29 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 133312
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:30 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+Fim da fila do EventManager
+Atingiu pelo menos 10 segundos:
+captureInformationGPS:
+XXXXXXXXXX - Add fila do GPS:
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 137963
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:31 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 142619
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:32 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 147295
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:33 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 151972
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:34 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 156670
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:35 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:36 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 161388
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:36 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:36 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:36 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:37 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 166107
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:37 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:36 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:37 AM
+Fim da fila do EventManager
+Atingiu pelo menos 10 segundos:
+captureInformationGPS:
+INVALIDLocation: -28.385728,-53.891708
+Location: -28.385728,-53.891708
+Location: -28.385728,-53.891708
+XXXXXXXXXX - Add fila do GPS:
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:36 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:37 AM
+ID do Controlador: 2, Payload: -28.385728,-53.891708, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:38 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 170864
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:38 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:36 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:37 AM
+ID do Controlador: 2, Payload: -28.385728,-53.891708, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:38 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:36 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:37 AM
+ID do Controlador: 2, Payload: -28.385728,-53.891708, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:39 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 175626
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:39 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:36 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:37 AM
+ID do Controlador: 2, Payload: -28.385728,-53.891708, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:39 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:36 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:37 AM
+ID do Controlador: 2, Payload: -28.385728,-53.891708, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:39 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:40 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 180408
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:40 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:36 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:37 AM
+ID do Controlador: 2, Payload: -28.385728,-53.891708, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:39 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:40 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:36 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:37 AM
+ID do Controlador: 2, Payload: -28.385728,-53.891708, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:39 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:40 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:41 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 185190
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:41 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:36 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:37 AM
+ID do Controlador: 2, Payload: -28.385728,-53.891708, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:39 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:40 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:41 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:1 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:2 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:3 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:4 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:5 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:6 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:7 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:8 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:9 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:10 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:11 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:12 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:13 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:14 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:15 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:16 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:17 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:18 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:19 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:20 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:21 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:22 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:23 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:24 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:25 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:26 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:27 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:28 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:29 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:30 AM
+ID do Controlador: 2, Payload: INVALID, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:31 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:32 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:33 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:34 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:35 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:36 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:37 AM
+ID do Controlador: 2, Payload: -28.385728,-53.891708, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:38 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:39 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:40 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:41 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:42 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 5
+XXX - timeDifference empty: 189994
+Esvaziando a fila do EventManager.
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:42 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:43 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 189999
+XXX - timeDifference empty: 4224
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:43 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:43 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:43 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:44 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 189999
+XXX - timeDifference empty: 8456
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:44 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:43 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:44 AM
+Fim da fila do EventManager
+Atingiu pelo menos 10 segundos:
+captureInformationGPS:
+Location: -28.385728,-53.891708
+Location: -28.385728,-53.891708
+XXXXXXXXXX - Add fila do GPS:
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:43 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:44 AM
+ID do Controlador: 2, Payload: -28.385728,-53.891708, Data/Hora: 0:0:45 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:45 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 189999
+XXX - timeDifference empty: 12728
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:45 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:43 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:44 AM
+ID do Controlador: 2, Payload: -28.385728,-53.891708, Data/Hora: 0:0:45 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:45 AM
+Fim da fila do EventManager
+Tempo ainda não atingiu 10 segundos.
+captureInformationAccelerometer:
+XXXXXXXXXX - Add fila do Acelerômetro:
+checkQueueGPSinternal:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:43 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:44 AM
+ID do Controlador: 2, Payload: -28.385728,-53.891708, Data/Hora: 0:0:45 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:45 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:46 AM
+Fim da fila do EventManager
+XXX - lastEmptyEventTime: 189999
+XXX - timeDifference empty: 17002
+Empty Tempo ainda não atingiu regra de limpeza
+XXXXXXXXXXXXXXXXX - Tempo atual: 0:0:46 AM
+Clock avançado
+Calendário avançado
+checkQueueSensor:
+Elementos na fila do EventManager:
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:43 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:44 AM
+ID do Controlador: 2, Payload: -28.385728,-53.891708, Data/Hora: 0:0:45 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:45 AM
+ID do Controlador: 1, Payload: Accelerometer data, Data/Hora: 0:0:46 AM
+Fim da fila do EventManager
+

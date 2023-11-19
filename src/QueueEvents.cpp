@@ -3,11 +3,9 @@
 
 QueueEvents::Node::Node(const Event& event)
     : data(event), next(nullptr) {
-  // Construtor do Node
 }
 
 QueueEvents::QueueEvents() : front(nullptr), rear(nullptr) {
-  // Construtor da classe, se necessário
 }
 
 QueueEvents::QueueEvents(const QueueEvents& other) : front(nullptr), rear(nullptr) {
@@ -26,12 +24,9 @@ QueueEvents::~QueueEvents() {
 
 QueueEvents& QueueEvents::operator=(const QueueEvents& other) {
   if (this != &other) {
-    // Limpar a fila atual
     while (!isEmpty()) {
       dequeue();
     }
-
-    // Copiar os elementos da outra fila
     Node* current = other.front;
     while (current != nullptr) {
       enqueue(current->data);
@@ -54,7 +49,6 @@ void QueueEvents::enqueue(const Event& event) {
 
 Event QueueEvents::dequeue() {
   if (isEmpty()) {
-    // Retornar um Event padrão ou lançar uma exceção, dependendo do seu design
     return Event();
   }
 

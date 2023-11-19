@@ -1,17 +1,25 @@
+// AccelerometerModule.h
 #ifndef ACCELEROMETERMODULE_H
 #define ACCELEROMETERMODULE_H
 
 #include <iostream>
+#include <memory>
+#include "Event.h"
+#include "ClockCalendar.h"
+
+class EventManager;
 
 class AccelerometerModule {
 public:
-    AccelerometerModule();  // Construtor
-    ~AccelerometerModule(); // Destrutor
+    AccelerometerModule(std::shared_ptr<EventManager> eventManager, std::shared_ptr<ClockCalendar> clockCalendar);
+    ~AccelerometerModule(); 
 
-    // Adicione aqui as declarações dos métodos públicos da classe
-
+    void captureInformationAccelerometer(); 
+    void anomalyDetection(); 
 private:
-    // Adicione aqui os membros privados da classe, se necessário
+    time_t lastUpdateTime;
+    std::shared_ptr<EventManager> eventManager;
+    std::shared_ptr<ClockCalendar> clockCalendar;
 };
 
 #endif // ACCELEROMETERMODULE_H

@@ -5,13 +5,10 @@
 
 class WifiModule {
 public:
-    WifiModule();  // Construtor
-    ~WifiModule(); // Destrutor
-
-    // Adicione aqui as declarações dos métodos públicos da classe
-
+    WifiModule(); 
+    ~WifiModule(); 
+    //TODO: Integrat in comuncition external in smartphone
 private:
-    // Adicione aqui os membros privados da classe, se necessário
 };
 
 #endif // WIFIMODULE_H

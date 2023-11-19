@@ -19,8 +19,6 @@ void Calendar::readCalendar(int& m, int& d, int& y) {
 void Calendar::advance() {
     day++;
     int daysInMonth;
-
-    // Define o número de dias no mês atual
     switch (mo) {
         case 1: case 3: case 5: case 7: case 8: case 10: case 12:
             daysInMonth = 31;

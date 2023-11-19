@@ -19,11 +19,10 @@ public:
     bool isEmpty();
     void printAllEvents();
     size_t getSizeQueue();
-
-    QueueEvents getEventQueue();  // Modificado para retornar uma cópia
+    QueueEvents getEventQueue(); 
 private:
     QueueEvents eventQueue;
-    std::shared_ptr<ClockCalendar> clockCalendar;  // Adicionando a declaração do membro clockCalendar aqui
+    std::shared_ptr<ClockCalendar> clockCalendar; 
 };
 
 #endif // EVENT_MANAGER_H

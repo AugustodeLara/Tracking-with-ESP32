@@ -7,11 +7,9 @@ class LoRaModule {
 public:
     LoRaModule();  // Construtor
     ~LoRaModule(); // Destrutor
-
-    // Adicione aqui as declarações dos métodos públicos da classe
+    // TODO: Create COmunication External and use in ConnectivityManager
 
 private:
-    // Adicione aqui os membros privados da classe, se necessário
 };
 
 #endif // LORAMODULE_H
