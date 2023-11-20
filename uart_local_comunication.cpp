@@ -1,8 +1,17 @@
 #include <iostream>
+#include <vector>
 #include <cstring>
+#include <ctime>
 #include <fcntl.h>
 #include <termios.h>
 #include <unistd.h>
+
+struct Event {
+    tm timestamp;
+    int controllerId;
+    std::string payload;
+    // Adicione outros membros da estrutura, se necessário...
+};
 
 int main() {
     int serialPort = open("/dev/ttyACM0", O_RDWR);
@@ -20,6 +29,7 @@ int main() {
         return 1;
     }
 
+    // Configuração da porta serial...
     tty.c_cflag &= ~PARENB;
     tty.c_cflag &= ~CSTOPB;
     tty.c_cflag &= ~CSIZE;
@@ -45,24 +55,46 @@ int main() {
         std::cerr << "Erro ao aplicar os atributos da porta serial." << std::endl;
         return 1;
     }
+    // Fim da configuração da porta serial
+
+    std::vector<Event> eventList;
+
+    tm startTime = {}; // Inicialize conforme necessário
+    tm endTime = {};   // Inicialize conforme necessário
 
     char buffer[256];
+    char lineBuffer[256];
+    int lineIndex = 0;
 
     while (true) {
         int bytesRead = read(serialPort, buffer, sizeof(buffer) - 1);
 
         if (bytesRead > 0) {
-            buffer[bytesRead] = '\0'; // Adiciona null terminator
+            buffer[bytesRead] = '\0';
 
-            // Verifica se os dados contêm apenas caracteres imprimíveis
             for (int i = 0; i < bytesRead; ++i) {
-                if (!isprint(buffer[i])) {
-                    std::cerr << "Aviso: Caractere não imprimível detectado." << std::endl;
-                    // Pode decidir o que fazer em caso de caractere não imprimível
+                if (buffer[i] == '\n') {
+                    lineBuffer[lineIndex] = '\0';
+                    std::cout << "Recebido: " << lineBuffer << std::endl;
+
+                    Event event;
+                    if (sscanf(lineBuffer, "ID do Controlador: %d, Payload: %[^,], Data/Hora: %d:%d:%d",
+                               &event.controllerId, const_cast<char*>(event.payload.c_str()),
+                               &event.timestamp.tm_hour, &event.timestamp.tm_min, &event.timestamp.tm_sec) == 5) {
+                        eventList.push_back(event);
+                    }
+
+                    lineIndex = 0;
+                } else {
+                    lineBuffer[lineIndex] = buffer[i];
+                    ++lineIndex;
+
+                    if (lineIndex >= sizeof(lineBuffer)) {
+                        std::cerr << "Aviso: Tamanho do buffer da linha excedido." << std::endl;
+                        lineIndex = 0;
+                    }
                 }
             }
-
-            std::cout << "Recebido: " << buffer << std::endl;
         } else if (bytesRead < 0) {
             std::cerr << "Erro ao ler da porta serial." << std::endl;
             break;
@@ -70,6 +102,9 @@ int main() {
     }
 
     close(serialPort);
+
+    // Agora, eventList contém os eventos recebidos
+    // Você pode usá-la para consultas conforme necessário
 
     return 0;
 }
