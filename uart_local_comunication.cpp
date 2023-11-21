@@ -5,13 +5,49 @@
 #include <fcntl.h>
 #include <termios.h>
 #include <unistd.h>
+#include <fstream>
+#include <algorithm>
 
 struct Event {
     tm timestamp;
     int controllerId;
     std::string payload;
+
+    // Adicione a função de comparação para eventos
+    bool operator==(const Event& other) const {
+        return (timestamp.tm_hour == other.timestamp.tm_hour &&
+                timestamp.tm_min == other.timestamp.tm_min &&
+                timestamp.tm_sec == other.timestamp.tm_sec &&
+                controllerId == other.controllerId &&
+                payload == other.payload);
+    }
     // Adicione outros membros da estrutura, se necessário...
 };
+
+void saveEventListToFile(const std::vector<Event>& eventList, const std::string& filename) {
+    std::ofstream outputFile(filename);
+
+    if (!outputFile.is_open()) {
+        std::cerr << "Erro ao abrir o arquivo de saída '" << filename << "' para escrita." << std::endl;
+        return;
+    }
+
+    for (const auto& event : eventList) {
+        char buffer[100];
+        strftime(buffer, sizeof(buffer), "%I:%M:%S %p", &event.timestamp);
+
+        outputFile << "ID do Controlador: " << event.controllerId
+                   << ", Payload: " << event.payload
+                   << ", Data/Hora: " << event.timestamp.tm_hour << ":" << event.timestamp.tm_min << ":" << event.timestamp.tm_sec << " AM" << std::endl;
+    }
+
+    outputFile.close();
+    std::cout << "Lista de eventos salva em " << filename << std::endl;
+}
+
+bool isDuplicateEvent(const Event& newEvent, const std::vector<Event>& eventList) {
+    return std::find(eventList.begin(), eventList.end(), newEvent) != eventList.end();
+}
 
 int main() {
     int serialPort = open("/dev/ttyACM0", O_RDWR);
@@ -81,7 +117,10 @@ int main() {
                     if (sscanf(lineBuffer, "ID do Controlador: %d, Payload: %[^,], Data/Hora: %d:%d:%d",
                                &event.controllerId, const_cast<char*>(event.payload.c_str()),
                                &event.timestamp.tm_hour, &event.timestamp.tm_min, &event.timestamp.tm_sec) == 5) {
-                        eventList.push_back(event);
+                        if (!isDuplicateEvent(event, eventList)) {
+                            eventList.push_back(event);
+                            saveEventListToFile(eventList, "eventList.txt"); // Adição aqui
+                        }
                     }
 
                     lineIndex = 0;
@@ -102,9 +141,6 @@ int main() {
     }
 
     close(serialPort);
-
-    // Agora, eventList contém os eventos recebidos
-    // Você pode usá-la para consultas conforme necessário
 
     return 0;
 }
