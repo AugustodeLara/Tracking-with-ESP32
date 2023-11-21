@@ -9,6 +9,8 @@
 #include <algorithm>
 #include <sstream>
 #include <iomanip>
+#include "UARTConfig.h"
+
 
 struct Event {
     std::string timestamp;
@@ -27,6 +29,58 @@ struct Event {
 // Função para converter uma string de data/hora para string
 std::string parseTimestamp(const std::string& timestampString) {
     return timestampString;
+}
+
+void processPayload(const std::string& lineString, std::string& payloadData) {
+    size_t payloadPos = lineString.find("Payload: ");
+    payloadData = "";
+    if (payloadPos != std::string::npos) {
+        // Avançar para o início do payload
+        payloadPos += 9;
+
+        // Encontrar a posição da vírgula após o payload
+        size_t commaPos = lineString.find(",", payloadPos);
+        if (commaPos != std::string::npos) {
+            // Extrair e imprimir o Accelerometer data
+            payloadData = lineString.substr(payloadPos, commaPos - payloadPos);
+            std::cout << "Payload IF: " << payloadData << std::endl;
+        } else {
+            // Se não houver vírgula, o payload é o restante da linha após "Payload: "
+            payloadData = lineString.substr(payloadPos);
+            std::cout << "Payload ELSE: " << payloadData << std::endl;
+        }
+    }
+}
+
+void processControllerId(const std::string& lineString, std::string& controllerIdData) {
+    size_t controllerIdPos = lineString.find("ID do Controlador: ");
+    controllerIdData = "";
+    if (controllerIdPos != std::string::npos) {
+        // Avançar para o início do ID do Controlador
+        controllerIdPos += 19;
+
+        // Encontrar a posição da vírgula após o ID do Controlador
+        size_t commaPosID = lineString.find(",", controllerIdPos);
+        if (commaPosID != std::string::npos) {
+            controllerIdData = lineString.substr(controllerIdPos, commaPosID - controllerIdPos);
+            std::cout << "IDCONTROLLER IF: " << controllerIdData << std::endl;
+        } else {
+            controllerIdData = lineString.substr(controllerIdPos);
+            std::cout << "IDCONTROLLER ELSE: " << controllerIdData << std::endl;
+        }
+    }
+}
+
+void processTimestamp(const std::string& lineString, std::string& timestampData) {
+    size_t timestampPos = lineString.find("Data/Hora: ");
+    timestampData = "";
+    if (timestampPos != std::string::npos) {
+        // Avançar para o início do timestamp
+        timestampPos += 11;
+
+        // Extrair o timestamp até o final da linha
+        timestampData = lineString.substr(timestampPos);
+    }
 }
 
 void saveEventListToFile(const std::vector<Event>& eventList, const std::string& filename) {
@@ -52,48 +106,11 @@ bool isDuplicateEvent(const Event& newEvent, const std::vector<Event>& eventList
 }
 
 int main() {
-    int serialPort = open("/dev/ttyACM0", O_RDWR);
+    UARTConfig uart("/dev/ttyACM0", B115200);
 
-    if (serialPort == -1) {
-        std::cerr << "Erro ao abrir a porta serial." << std::endl;
+    if (!uart.openPort() || !uart.configurePort()) {
         return 1;
     }
-
-    struct termios tty;
-    memset(&tty, 0, sizeof tty);
-
-    if (tcgetattr(serialPort, &tty) != 0) {
-        std::cerr << "Erro ao obter os atributos da porta serial." << std::endl;
-        return 1;
-    }
-
-    // Configuração da porta serial...
-    tty.c_cflag &= ~PARENB;
-    tty.c_cflag &= ~CSTOPB;
-    tty.c_cflag &= ~CSIZE;
-    tty.c_cflag |= CS8;
-    tty.c_cflag &= ~CRTSCTS;
-
-    tty.c_lflag &= ~(ICANON | ECHO | ECHOE | ISIG);
-
-    tty.c_iflag &= ~(IXON | IXOFF | IXANY);
-    tty.c_iflag &= ~(IGNBRK | BRKINT | PARMRK | ISTRIP | INLCR | IGNCR | ICRNL);
-
-    tty.c_oflag &= ~OPOST;
-
-    tty.c_cc[VMIN] = 1;
-    tty.c_cc[VTIME] = 0;
-
-    if (cfsetispeed(&tty, B115200) != 0 || cfsetospeed(&tty, B115200) != 0) {
-        std::cerr << "Erro ao configurar a velocidade da porta serial." << std::endl;
-        return 1;
-    }
-
-    if (tcsetattr(serialPort, TCSANOW, &tty) != 0) {
-        std::cerr << "Erro ao aplicar os atributos da porta serial." << std::endl;
-        return 1;
-    }
-    // Fim da configuração da porta serial
 
     std::vector<Event> eventList;
 
@@ -102,7 +119,7 @@ int main() {
     int lineIndex = 0;
 
     while (true) {
-        int bytesRead = read(serialPort, buffer, sizeof(buffer) - 1);
+        int bytesRead = read(uart.getSerialPort(), buffer, sizeof(buffer) - 1);
 
         if (bytesRead > 0) {
             buffer[bytesRead] = '\0';
@@ -114,66 +131,24 @@ int main() {
 
                     std::string lineString(lineBuffer);
 
-                    // Encontrar a posição da string "Payload: "
-                    size_t payloadPos = lineString.find("Payload: ");
-                    std::string payloadData = "";
-                    if (payloadPos != std::string::npos) {
-                        // Avançar para o início do payload
-                        payloadPos += 9;
+                    std::string payloadData;
+                    processPayload(lineString, payloadData);
 
-                        // Encontrar a posição da vírgula após o payload
-                        size_t commaPos = lineString.find(",", payloadPos);
-                        if (commaPos != std::string::npos) {
-                            // Extrair e imprimir o Accelerometer data
-                            payloadData = lineString.substr(payloadPos, commaPos - payloadPos);
-                            std::cout << "Payload IF: " << payloadData << std::endl;
-                        } else {
-                            // Se não houver vírgula, o payload é o restante da linha após "Payload: "
-                            payloadData = lineString.substr(payloadPos);
-                            std::cout << "Payload ELSE: " << payloadData << std::endl;
-                        }
-                    }
+                    std::string controllerIdData;
+                    processControllerId(lineString, controllerIdData);
 
-                    // Encontrar a posição da string "ID do Controlador: "
-                    size_t controllerIdPos = lineString.find("ID do Controlador: ");
-                    std::string controllerIdData = "";
-                    if (controllerIdPos != std::string::npos) {
-                        // Avançar para o início do ID do Controlador
-                        controllerIdPos += 19;
+                    std::string timestampData;
+                    processTimestamp(lineString, timestampData);
 
-                        // Encontrar a posição da vírgula após o ID do Controlador
-                        size_t commaPosID = lineString.find(",", controllerIdPos);
-                        if (commaPosID != std::string::npos) {
-                            controllerIdData = lineString.substr(controllerIdPos, commaPosID - controllerIdPos);
-                            std::cout << "IDCONTROLLER IF: " << controllerIdData << std::endl;
-                        } else {
-                            controllerIdData = lineString.substr(controllerIdPos);
-                            std::cout << "IDCONTROLLER ELSE: " << controllerIdData << std::endl;
-                        }
-                    }
+                    // Converter a string de timestamp para string e atribuir ao evento
+                    Event event;
+                    event.controllerId = controllerIdData; // Preencha conforme necessário
+                    event.payload = payloadData;
+                    event.timestamp = timestampData;
 
-                    size_t timestampPos = lineString.find("Data/Hora: ");
-                    std::string timestampData = "";
-                    if (timestampPos != std::string::npos) {
-                        // Avançar para o início do timestamp
-                        timestampPos += 12;
-
-                        // Extrair o timestamp
-                        timestampData = lineString.substr(timestampPos);
-
-                        // Remover espaços extras
-                        timestampData.erase(std::remove_if(timestampData.begin(), timestampData.end(), ::isspace), timestampData.end());
-
-                        // Converter a string de timestamp para string e atribuir ao evento
-                        Event event;
-                        event.controllerId = controllerIdData; // Preencha conforme necessário
-                        event.payload = payloadData;
-                        event.timestamp = timestampData;
-
-                        if (!isDuplicateEvent(event, eventList)) {
-                            eventList.push_back(event);
-                            saveEventListToFile(eventList, "eventList1690.txt");
-                        }
+                    if (!isDuplicateEvent(event, eventList)) {
+                        eventList.push_back(event);
+                        saveEventListToFile(eventList, "eventList13.txt");
                     }
 
                     lineIndex = 0;
@@ -193,7 +168,7 @@ int main() {
         }
     }
 
-    close(serialPort);
+    close(uart.getSerialPort());
 
     return 0;
 }
