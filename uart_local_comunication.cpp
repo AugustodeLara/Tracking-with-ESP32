@@ -7,22 +7,27 @@
 #include <unistd.h>
 #include <fstream>
 #include <algorithm>
+#include <sstream>
+#include <iomanip>
 
 struct Event {
-    tm timestamp;
-    int controllerId;
+    std::string timestamp;
+    std::string controllerId;
     std::string payload;
 
     // Adicione a função de comparação para eventos
     bool operator==(const Event& other) const {
-        return (timestamp.tm_hour == other.timestamp.tm_hour &&
-                timestamp.tm_min == other.timestamp.tm_min &&
-                timestamp.tm_sec == other.timestamp.tm_sec &&
+        return (timestamp == other.timestamp &&
                 controllerId == other.controllerId &&
                 payload == other.payload);
     }
     // Adicione outros membros da estrutura, se necessário...
 };
+
+// Função para converter uma string de data/hora para string
+std::string parseTimestamp(const std::string& timestampString) {
+    return timestampString;
+}
 
 void saveEventListToFile(const std::vector<Event>& eventList, const std::string& filename) {
     std::ofstream outputFile(filename);
@@ -33,12 +38,9 @@ void saveEventListToFile(const std::vector<Event>& eventList, const std::string&
     }
 
     for (const auto& event : eventList) {
-        char buffer[100];
-        strftime(buffer, sizeof(buffer), "%I:%M:%S %p", &event.timestamp);
-
         outputFile << "ID do Controlador: " << event.controllerId
                    << ", Payload: " << event.payload
-                   << ", Data/Hora: " << event.timestamp.tm_hour << ":" << event.timestamp.tm_min << ":" << event.timestamp.tm_sec << " AM" << std::endl;
+                   << ", Data/Hora: " << event.timestamp << std::endl;
     }
 
     outputFile.close();
@@ -95,9 +97,6 @@ int main() {
 
     std::vector<Event> eventList;
 
-    tm startTime = {}; // Inicialize conforme necessário
-    tm endTime = {};   // Inicialize conforme necessário
-
     char buffer[256];
     char lineBuffer[256];
     int lineIndex = 0;
@@ -113,13 +112,67 @@ int main() {
                     lineBuffer[lineIndex] = '\0';
                     std::cout << "Recebido: " << lineBuffer << std::endl;
 
-                    Event event;
-                    if (sscanf(lineBuffer, "ID do Controlador: %d, Payload: %[^,], Data/Hora: %d:%d:%d",
-                               &event.controllerId, const_cast<char*>(event.payload.c_str()),
-                               &event.timestamp.tm_hour, &event.timestamp.tm_min, &event.timestamp.tm_sec) == 5) {
+                    std::string lineString(lineBuffer);
+
+                    // Encontrar a posição da string "Payload: "
+                    size_t payloadPos = lineString.find("Payload: ");
+                    std::string payloadData = "";
+                    if (payloadPos != std::string::npos) {
+                        // Avançar para o início do payload
+                        payloadPos += 9;
+
+                        // Encontrar a posição da vírgula após o payload
+                        size_t commaPos = lineString.find(",", payloadPos);
+                        if (commaPos != std::string::npos) {
+                            // Extrair e imprimir o Accelerometer data
+                            payloadData = lineString.substr(payloadPos, commaPos - payloadPos);
+                            std::cout << "Payload IF: " << payloadData << std::endl;
+                        } else {
+                            // Se não houver vírgula, o payload é o restante da linha após "Payload: "
+                            payloadData = lineString.substr(payloadPos);
+                            std::cout << "Payload ELSE: " << payloadData << std::endl;
+                        }
+                    }
+
+                    // Encontrar a posição da string "ID do Controlador: "
+                    size_t controllerIdPos = lineString.find("ID do Controlador: ");
+                    std::string controllerIdData = "";
+                    if (controllerIdPos != std::string::npos) {
+                        // Avançar para o início do ID do Controlador
+                        controllerIdPos += 19;
+
+                        // Encontrar a posição da vírgula após o ID do Controlador
+                        size_t commaPosID = lineString.find(",", controllerIdPos);
+                        if (commaPosID != std::string::npos) {
+                            controllerIdData = lineString.substr(controllerIdPos, commaPosID - controllerIdPos);
+                            std::cout << "IDCONTROLLER IF: " << controllerIdData << std::endl;
+                        } else {
+                            controllerIdData = lineString.substr(controllerIdPos);
+                            std::cout << "IDCONTROLLER ELSE: " << controllerIdData << std::endl;
+                        }
+                    }
+
+                    size_t timestampPos = lineString.find("Data/Hora: ");
+                    std::string timestampData = "";
+                    if (timestampPos != std::string::npos) {
+                        // Avançar para o início do timestamp
+                        timestampPos += 12;
+
+                        // Extrair o timestamp
+                        timestampData = lineString.substr(timestampPos);
+
+                        // Remover espaços extras
+                        timestampData.erase(std::remove_if(timestampData.begin(), timestampData.end(), ::isspace), timestampData.end());
+
+                        // Converter a string de timestamp para string e atribuir ao evento
+                        Event event;
+                        event.controllerId = controllerIdData; // Preencha conforme necessário
+                        event.payload = payloadData;
+                        event.timestamp = timestampData;
+
                         if (!isDuplicateEvent(event, eventList)) {
                             eventList.push_back(event);
-                            saveEventListToFile(eventList, "eventList.txt"); // Adição aqui
+                            saveEventListToFile(eventList, "eventList1690.txt");
                         }
                     }
 
@@ -144,4 +197,3 @@ int main() {
 
     return 0;
 }
-
