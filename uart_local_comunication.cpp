@@ -34,6 +34,9 @@ bool eventReceived = false;
 int estabilizou = 0;  // Adicionando a variável estabilizou
 std::string userOption;
 std::mutex userInputMutex;
+bool userInputComplete = false;  // Variável adicional para indicar que a entrada do usuário foi concluída
+std::string userInput;  // Variável para armazenar a entrada do usuário
+
 
 
 void showMenu(const std::vector<Event>& eventList);
@@ -110,48 +113,7 @@ bool isDuplicateEvent(const Event& newEvent, const std::vector<Event>& eventList
     return std::find(eventList.begin(), eventList.end(), newEvent) != eventList.end();
 }
 
-void showMenu(const std::vector<Event>& eventList) {
-    std::cout << "Menu de Exibição:\n";
 
-    for (const auto& event : eventList) {
-        std::cout << "ID do Controlador: " << event.controllerId
-                  << ", Payload: " << event.payload
-                  << ", Data/Hora: " << event.timestamp << std::endl;
-    }
-
-    std::cout << "Selecione uma opção:\n";
-    std::cout << "1. Listar eventos em um intervalo de datas\n";
-    std::cout << "2. Calcular tempo total ativo em um intervalo de datas\n";
-
-    int opcao;
-    std::cout << "Digite a opção desejada (1 ou 2): ";
-    std::cin >> opcao;
-
-    switch (opcao) {
-        case 1: {
-            std::string startDate, endDate;
-            std::cout << "Digite a data de início (formato YYYY-MM-DD HH:MM:SS): ";
-            std::cin >> startDate;
-            std::cout << "Digite a data de término (formato YYYY-MM-DD HH:MM:SS): ";
-            std::cin >> endDate;
-            listEventsInInterval(eventList, startDate, endDate);
-            break;
-        }
-        case 2: {
-            std::string startDate, endDate;
-            std::cout << "Digite a data de início (formato YYYY-MM-DD HH:MM:SS): ";
-            std::cin >> startDate;
-            std::cout << "Digite a data de término (formato YYYY-MM-DD HH:MM:SS): ";
-            std::cin >> endDate;
-            totalActiveTimeInInterval(eventList, startDate, endDate);
-            break;
-        }
-        default:
-            std::cout << "Opção inválida.\n";
-    }
-
-    menuShouldBeDisplayed = false;
-}
 
 void listEventsInInterval(const std::vector<Event>& eventList, const std::string& startDate, const std::string& endDate) {
     // Implementação para listar eventos no intervalo de datas
@@ -246,65 +208,66 @@ void saveToFileThread(std::vector<Event>& eventList) {
     }
 }
 
-void getUserOption() {
+void getUserInput() {
     while (true) {
-        std::string option;
-        std::cout << "Digite uma opção (ou 'q' para sair): ";
-        std::cin >> option;
-
-        if (option == "q") {
-            break;
-        }
+        std::string input;
+        std::cout << "Digite algo: ";
+        std::cin >> input;
 
         {
             std::lock_guard<std::mutex> lock(userInputMutex);
-            userOption = option;
+            userInput = input;
+            userInputComplete = true;
+            cv.notify_one();
         }
     }
+}
+
+void showMenu() {
+    std::unique_lock<std::mutex> lock(mtx);
+    if (!menuShouldBeDisplayed) {
+        return;
+    }
+
+    // Implemente a lógica do seu menu aqui
+    std::cout << "Menu exibido!\n";
+
+    // Aguarde um curto período para dar tempo de o usuário interagir, se desejar
+    std::this_thread::sleep_for(std::chrono::seconds(10));
+
+    // Implemente o restante da lógica do seu menu conforme necessário
+    std::cout << "Continuando processamento...\n";
 }
 
 void displayMenu(std::vector<Event>& eventList) {
-    std::this_thread::sleep_for(std::chrono::seconds(3));
-
     while (true) {
+        std::this_thread::sleep_for(std::chrono::milliseconds(100));  // Aguarda 100 milissegundos
         {
-            std::unique_lock<std::mutex> lock(mtx);
-
-            cv.wait(lock, [&] { return menuShouldBeDisplayed || !userOption.empty(); });
-
-            std::cout << "Thread Menu: Recebida notificação.\n";
-
-            if (!userOption.empty()) {
-                if (userOption == "q") {
-                    std::cout << "Encerrando o programa...\n";
-                    return;
-                }
-                int option = std::stoi(userOption);
-                switch (option) {
-                    case 1:
-                        // Processar a opção 1
-                        break;
-                    case 2:
-                        // Processar a opção 2
-                        break;
-                    default:
-                        std::cout << "Opção inválida.\n";
-                }
-                userOption.clear();
-            }
-
-            if (menuShouldBeDisplayed) {
-                showMenu(eventList);
-                menuShouldBeDisplayed = false;
-            }
-
-            estabilizou = 0;
-            eventReceived = false;
+            std::lock_guard<std::mutex> lock(mtx);
+            menuShouldBeDisplayed = true;
+            cv.notify_one();
         }
 
-        std::cout << "Thread Menu: Continuando processamento.\n";
+        showMenu();
+
+        {
+            std::unique_lock<std::mutex> lock(mtx);
+            menuShouldBeDisplayed = false;
+            cv.wait(lock, [] { return !userInputComplete; });
+        }
+
+        // Processar userInput conforme necessário
+        {
+            std::lock_guard<std::mutex> lock(userInputMutex);
+            std::cout << "Usuário digitou: " << userInput << std::endl;
+            userInputComplete = false;
+        }
     }
 }
+
+
+
+
 
 int main() {
     UARTConfig uart("/dev/ttyACM0", B115200);
@@ -322,7 +285,7 @@ int main() {
     std::thread uartThread(readUART, std::ref(eventList), std::ref(lineIndex), std::ref(uart));
     std::thread menuThread(displayMenu, std::ref(eventList));
     std::thread saveToFile(saveToFileThread, std::ref(eventList));
-    std::thread userInputThread(getUserOption);
+    //std::thread userInputThread(getUserOption);
 
     while (true) {
         // Adicione suas operações principais aqui.
@@ -331,9 +294,9 @@ int main() {
     }
 
     uartThread.join();
-    menuThread.join();
     saveToFile.join();
-    userInputThread.join();
+    menuThread.join();
+
     close(uart.getSerialPort());
 
     return 0;
