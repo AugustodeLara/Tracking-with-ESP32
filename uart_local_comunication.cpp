@@ -9,24 +9,40 @@
 #include <algorithm>
 #include <sstream>
 #include <iomanip>
+#include <thread>
+#include <mutex>
+#include <condition_variable>
 #include "UARTConfig.h"
-
 
 struct Event {
     std::string timestamp;
     std::string controllerId;
     std::string payload;
 
-    // Adicione a função de comparação para eventos
+    // Função de comparação para eventos
     bool operator==(const Event& other) const {
         return (timestamp == other.timestamp &&
                 controllerId == other.controllerId &&
                 payload == other.payload);
     }
-    // Adicione outros membros da estrutura, se necessário...
 };
 
-// Função para converter uma string de data/hora para string
+std::mutex mtx;
+std::condition_variable cv;
+bool menuShouldBeDisplayed = false;
+bool eventReceived = false;
+int estabilizou = 0;  // Adicionando a variável estabilizou
+std::string userOption;
+std::mutex userInputMutex;
+
+
+void showMenu(const std::vector<Event>& eventList);
+void readUART(std::vector<Event>& eventList, int& lineIndex, UARTConfig& uart);
+void listEventsInInterval(const std::vector<Event>& eventList, const std::string& startDate, const std::string& endDate);
+void totalActiveTimeInInterval(const std::vector<Event>& eventList, const std::string& startDate, const std::string& endDate);
+void saveToFileThread(std::vector<Event>& eventList);
+void getUserOption();
+
 std::string parseTimestamp(const std::string& timestampString) {
     return timestampString;
 }
@@ -35,17 +51,12 @@ void processPayload(const std::string& lineString, std::string& payloadData) {
     size_t payloadPos = lineString.find("Payload: ");
     payloadData = "";
     if (payloadPos != std::string::npos) {
-        // Avançar para o início do payload
         payloadPos += 9;
-
-        // Encontrar a posição da vírgula após o payload
         size_t commaPos = lineString.find(",", payloadPos);
         if (commaPos != std::string::npos) {
-            // Extrair e imprimir o Accelerometer data
             payloadData = lineString.substr(payloadPos, commaPos - payloadPos);
             std::cout << "Payload IF: " << payloadData << std::endl;
         } else {
-            // Se não houver vírgula, o payload é o restante da linha após "Payload: "
             payloadData = lineString.substr(payloadPos);
             std::cout << "Payload ELSE: " << payloadData << std::endl;
         }
@@ -56,10 +67,7 @@ void processControllerId(const std::string& lineString, std::string& controllerI
     size_t controllerIdPos = lineString.find("ID do Controlador: ");
     controllerIdData = "";
     if (controllerIdPos != std::string::npos) {
-        // Avançar para o início do ID do Controlador
         controllerIdPos += 19;
-
-        // Encontrar a posição da vírgula após o ID do Controlador
         size_t commaPosID = lineString.find(",", controllerIdPos);
         if (commaPosID != std::string::npos) {
             controllerIdData = lineString.substr(controllerIdPos, commaPosID - controllerIdPos);
@@ -75,10 +83,7 @@ void processTimestamp(const std::string& lineString, std::string& timestampData)
     size_t timestampPos = lineString.find("Data/Hora: ");
     timestampData = "";
     if (timestampPos != std::string::npos) {
-        // Avançar para o início do timestamp
         timestampPos += 11;
-
-        // Extrair o timestamp até o final da linha
         timestampData = lineString.substr(timestampPos);
     }
 }
@@ -105,18 +110,62 @@ bool isDuplicateEvent(const Event& newEvent, const std::vector<Event>& eventList
     return std::find(eventList.begin(), eventList.end(), newEvent) != eventList.end();
 }
 
-int main() {
-    UARTConfig uart("/dev/ttyACM0", B115200);
+void showMenu(const std::vector<Event>& eventList) {
+    std::cout << "Menu de Exibição:\n";
 
-    if (!uart.openPort() || !uart.configurePort()) {
-        return 1;
+    for (const auto& event : eventList) {
+        std::cout << "ID do Controlador: " << event.controllerId
+                  << ", Payload: " << event.payload
+                  << ", Data/Hora: " << event.timestamp << std::endl;
     }
 
-    std::vector<Event> eventList;
+    std::cout << "Selecione uma opção:\n";
+    std::cout << "1. Listar eventos em um intervalo de datas\n";
+    std::cout << "2. Calcular tempo total ativo em um intervalo de datas\n";
 
+    int opcao;
+    std::cout << "Digite a opção desejada (1 ou 2): ";
+    std::cin >> opcao;
+
+    switch (opcao) {
+        case 1: {
+            std::string startDate, endDate;
+            std::cout << "Digite a data de início (formato YYYY-MM-DD HH:MM:SS): ";
+            std::cin >> startDate;
+            std::cout << "Digite a data de término (formato YYYY-MM-DD HH:MM:SS): ";
+            std::cin >> endDate;
+            listEventsInInterval(eventList, startDate, endDate);
+            break;
+        }
+        case 2: {
+            std::string startDate, endDate;
+            std::cout << "Digite a data de início (formato YYYY-MM-DD HH:MM:SS): ";
+            std::cin >> startDate;
+            std::cout << "Digite a data de término (formato YYYY-MM-DD HH:MM:SS): ";
+            std::cin >> endDate;
+            totalActiveTimeInInterval(eventList, startDate, endDate);
+            break;
+        }
+        default:
+            std::cout << "Opção inválida.\n";
+    }
+
+    menuShouldBeDisplayed = false;
+}
+
+void listEventsInInterval(const std::vector<Event>& eventList, const std::string& startDate, const std::string& endDate) {
+    // Implementação para listar eventos no intervalo de datas
+    std::cout << "Função listEventsInInterval não implementada.\n";
+}
+
+void totalActiveTimeInInterval(const std::vector<Event>& eventList, const std::string& startDate, const std::string& endDate) {
+    // Implementação para calcular o tempo total ativo no intervalo de datas
+    std::cout << "Função totalActiveTimeInInterval não implementada.\n";
+}
+
+void readUART(std::vector<Event>& eventList, int& lineIndex, UARTConfig& uart) {
     char buffer[256];
     char lineBuffer[256];
-    int lineIndex = 0;
 
     while (true) {
         int bytesRead = read(uart.getSerialPort(), buffer, sizeof(buffer) - 1);
@@ -140,15 +189,18 @@ int main() {
                     std::string timestampData;
                     processTimestamp(lineString, timestampData);
 
-                    // Converter a string de timestamp para string e atribuir ao evento
                     Event event;
-                    event.controllerId = controllerIdData; // Preencha conforme necessário
+                    event.controllerId = controllerIdData;
                     event.payload = payloadData;
                     event.timestamp = timestampData;
 
-                    if (!isDuplicateEvent(event, eventList)) {
-                        eventList.push_back(event);
-                        saveEventListToFile(eventList, "eventList13.txt");
+                    {
+                        std::lock_guard<std::mutex> lock(mtx);
+                        if (!isDuplicateEvent(event, eventList)) {
+                            eventList.push_back(event);
+                            eventReceived = true;
+                            cv.notify_one();
+                        }
                     }
 
                     lineIndex = 0;
@@ -167,7 +219,121 @@ int main() {
             break;
         }
     }
+}
 
+void saveToFileThread(std::vector<Event>& eventList) {
+    while (true) {
+        std::this_thread::sleep_for(std::chrono::seconds(5));
+
+        std::vector<Event> eventsToSave;
+
+        {
+            std::unique_lock<std::mutex> lock(mtx);
+
+            cv.wait(lock, [&eventList] { return eventReceived || !eventList.empty(); });
+
+            std::cout << "Thread SaveToFile: Recebida notificação.\n";
+
+            if (eventReceived || !eventList.empty()) {
+                eventsToSave = std::move(eventList);
+                eventReceived = false;
+            }
+        }
+
+        if (!eventsToSave.empty()) {
+            saveEventListToFile(eventsToSave, "eventList15.txt");
+        }
+    }
+}
+
+void getUserOption() {
+    while (true) {
+        std::string option;
+        std::cout << "Digite uma opção (ou 'q' para sair): ";
+        std::cin >> option;
+
+        if (option == "q") {
+            break;
+        }
+
+        {
+            std::lock_guard<std::mutex> lock(userInputMutex);
+            userOption = option;
+        }
+    }
+}
+
+void displayMenu(std::vector<Event>& eventList) {
+    std::this_thread::sleep_for(std::chrono::seconds(3));
+
+    while (true) {
+        {
+            std::unique_lock<std::mutex> lock(mtx);
+
+            cv.wait(lock, [&] { return menuShouldBeDisplayed || !userOption.empty(); });
+
+            std::cout << "Thread Menu: Recebida notificação.\n";
+
+            if (!userOption.empty()) {
+                if (userOption == "q") {
+                    std::cout << "Encerrando o programa...\n";
+                    return;
+                }
+                int option = std::stoi(userOption);
+                switch (option) {
+                    case 1:
+                        // Processar a opção 1
+                        break;
+                    case 2:
+                        // Processar a opção 2
+                        break;
+                    default:
+                        std::cout << "Opção inválida.\n";
+                }
+                userOption.clear();
+            }
+
+            if (menuShouldBeDisplayed) {
+                showMenu(eventList);
+                menuShouldBeDisplayed = false;
+            }
+
+            estabilizou = 0;
+            eventReceived = false;
+        }
+
+        std::cout << "Thread Menu: Continuando processamento.\n";
+    }
+}
+
+int main() {
+    UARTConfig uart("/dev/ttyACM0", B115200);
+
+    if (!uart.openPort() || !uart.configurePort()) {
+        return 1;
+    }
+
+    std::vector<Event> eventList;
+
+    char buffer[256];
+    char lineBuffer[256];
+    int lineIndex = 0;
+
+    std::thread uartThread(readUART, std::ref(eventList), std::ref(lineIndex), std::ref(uart));
+    std::thread menuThread(displayMenu, std::ref(eventList));
+    std::thread saveToFile(saveToFileThread, std::ref(eventList));
+    std::thread userInputThread(getUserOption);
+
+    while (true) {
+        // Adicione suas operações principais aqui.
+
+        std::this_thread::sleep_for(std::chrono::seconds(1));
+    }
+
+    uartThread.join();
+    menuThread.join();
+    saveToFile.join();
+    userInputThread.join();
     close(uart.getSerialPort());
 
     return 0;
