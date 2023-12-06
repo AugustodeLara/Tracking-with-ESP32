@@ -2,12 +2,14 @@
 #define WIFIMODULE_H
 
 #include <iostream>
+#include <HTTPClient.h>
+#include <WiFi.h>
 
 class WifiModule {
 public:
     WifiModule(); 
     ~WifiModule(); 
-    //TODO: Integrat in comuncition external in smartphone
+    void makeRequest(); 
 private:
 };
 

@@ -1,8 +1,8 @@
 // SensorManager.cpp
 #include "SensorManager.h"
 
-SensorManager::SensorManager(std::shared_ptr<GpsModule> gpsModule, std::shared_ptr<AccelerometerModule> accelerometerModule, std::shared_ptr<EventManager> eventManager, std::shared_ptr<ClockCalendar> clockCalendar)
-    : gpsModule(gpsModule), accelerometerModule(accelerometerModule), eventManager(eventManager), clockCalendar(clockCalendar) {
+SensorManager::SensorManager(std::shared_ptr<GpsModule> gpsModule, std::shared_ptr<AccelerometerModule> accelerometerModule, std::shared_ptr<EventManager> eventManager, std::shared_ptr<ClockCalendar> clockCalendar, std::shared_ptr<WifiModule> wifiModule)
+    : gpsModule(gpsModule), accelerometerModule(accelerometerModule), eventManager(eventManager), clockCalendar(clockCalendar), wifiModule(wifiModule) {
     lastEmptyEventTime = clockCalendar->getMillis();
     lastGPSTime = clockCalendar->getMillis();
     lastAccelerometerTime = clockCalendar->getMillis();
@@ -25,13 +25,15 @@ void SensorManager::PeriodicGPS(TinyGPSPlus& gps) {
     Serial.println(timeDifference);
 
       if (timeDifference >= 31500 || lastGPSTime == 0) {
-        Serial.println("Atingiu pelo menos 10 segundos:");
+        wifiModule->makeRequest();
 
         // Captura informações GPS e adiciona à fila
         gpsModule->captureInformationGPS(gps);  // Passe o objeto gps como argumento
+        Serial.println("PeriodicGPS Atingiu pelo menos 10 segundos:");
+        Serial.println("PeriodicGPS chamando makeRequest");
         lastGPSTime = currentTime;  // Atualiza o último tempo de captura
     } else {
-        Serial.println("Tempo ainda não atingiu 10 segundos.");
+        Serial.println("PeriodicGPS Tempo ainda não atingiu 10 segundos.");
     }
 }
 
@@ -39,20 +41,21 @@ void SensorManager::PeriodicAccelerometer() {
     unsigned long currentTime = clockCalendar->getMillis();
     unsigned long timeDifference = currentTime - lastAccelerometerTime;
 
-    Serial.print("XXX - lastAccelerometerTime: ");
-    Serial.println(lastAccelerometerTime);
+    //Serial.print("XXX - lastAccelerometerTime: ");
+    //Serial.println(lastAccelerometerTime);
 
-    Serial.print("XXX - timeDifference accelerometer: ");
-    Serial.println(timeDifference);
+    //Serial.print("XXX - timeDifference accelerometer: ");
+    //Serial.println(timeDifference);
 
      if (timeDifference >= 21500 || lastGPSTime == 0) {
-        Serial.println("Atingiu pelo menos 10 segundos:");
-
+        Serial.println("PeriodicAccelerometer Atingiu pelo menos 10 segundos:");
         // Captura informações do acelerômetro e adiciona à fila
         accelerometerModule->captureInformationAccelerometer();
+        Serial.println("PeriodicGPS chamando makeRequest");
+        wifiModule->makeRequest();
         lastAccelerometerTime = currentTime;  // Atualiza o último tempo de captura
     } else {
-        Serial.println("Tempo ainda não atingiu 10 segundos.");
+        Serial.println("PeriodicAccelerometer Tempo ainda não atingiu 10 segundos.");
     }
 }
 
@@ -61,11 +64,11 @@ void SensorManager::emptyEventManagerQueue() {
     unsigned long currentTime = clockCalendar->getMillis();
     unsigned long timeDifference = currentTime - lastEmptyEventTime;
 
-    Serial.print("XXX - lastEmptyEventTime: ");
-    Serial.println(lastEmptyEventTime);
+    //Serial.print("XXX - lastEmptyEventTime: ");
+    //Serial.println(lastEmptyEventTime);
 
-    Serial.print("XXX - timeDifference empty: ");
-    Serial.println(timeDifference);
+    //Serial.print("XXX - timeDifference empty: ");
+    //Serial.println(timeDifference);
 
     if (timeDifference >= (31500*6) && eventManager->getSizeQueue() >= 6) { 
         lastEmptyEventTime = currentTime;
