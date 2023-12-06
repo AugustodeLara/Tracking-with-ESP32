@@ -18,10 +18,10 @@ void SensorManager::PeriodicGPS(TinyGPSPlus& gps) {
     unsigned long currentTime = clockCalendar->getMillis();
     unsigned long timeDifference = currentTime - lastGPSTime;
 
-    Serial.print("XXX - lastGPSTime: ");
+    //Serial.print("XXX - lastGPSTime: ");
     Serial.println(lastGPSTime);
 
-    Serial.print("XXX - timeDifference: ");
+    //Serial.print("XXX - timeDifference: ");
     Serial.println(timeDifference);
 
       if (timeDifference >= 31500 || lastGPSTime == 0) {
